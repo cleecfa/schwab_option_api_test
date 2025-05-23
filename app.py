@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return 'Schwab API Financial Web App'
+    return 'Schwab API Financial Web '
 
 @app.route('/api-key')
 def get_api_key():
